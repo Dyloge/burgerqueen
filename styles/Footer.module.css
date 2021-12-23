@@ -33,17 +33,15 @@
   font-size: 20px;
   font-weight: bolder;
   color: #d62416;
+  cursor: pointer;
 }
 .socialMedia {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.socialMediaIconImage {
-  filter: invert(14%) sepia(26%) saturate(2275%) hue-rotate(338deg)
-    brightness(99%) contrast(95%);
-  cursor: pointer;
-}
+
 .socialMediaIcon {
+  cursor: pointer;
   margin: 0px 20px;
 }

@@ -41,7 +41,7 @@ const Footer = () => {
         <a className={styles.socialMediaIcon}>
           <Image src='/img/facebook.svg' alt='' width='32' height='32'></Image>
         </a>
-        <a classsName={styles.socialMediaIcon}>
+        <a className={styles.socialMediaIcon}>
           <Image src='/img/youtube.svg' alt='' width='42' height='42'></Image>
         </a>
         <a className={styles.socialMediaIcon}>
