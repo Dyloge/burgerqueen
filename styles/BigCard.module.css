@@ -1,0 +1,91 @@
+.container {
+  margin: 30px 10px;
+}
+.card {
+  width: 300px;
+  height: 200px;
+  margin-right: 2px;
+}
+.cardBody {
+  border: 2px solid #ebebeb;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  height: 360px;
+  padding: 10px 20px;
+}
+.cardBody:hover {
+  border: 2px solid #522118;
+}
+.image {
+  margin-top: -120px;
+  margin-right: -5px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #522118;
+}
+
+.price {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #522118;
+}
+
+.buttonsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonShippingCart {
+  background-color: #522118;
+  color: #f4ebdc;
+  text-decoration: none;
+  border-radius: 50px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 280px;
+}
+
+.iconShippingCart {
+  font-size: 16px;
+  margin-right: 15px;
+  padding: 0px 8px;
+  filter: brightness(0) saturate(100%) invert(91%) sepia(7%) saturate(900%)
+    hue-rotate(329deg) brightness(108%) contrast(92%);
+}
+
+.textShippingCart {
+  white-space: nowrap;
+  padding: 0px 10px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .price,
+  .desc {
+    font-size: 24px;
+  }
+}

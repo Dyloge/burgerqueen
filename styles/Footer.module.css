@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8dcc9;
+}
+.item {
+  font-size: 17px;
+  margin: 5px 0px;
+}
+.item:hover {
+  color: #ff8732;
+  cursor: pointer;
+}
+.titr {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 10px 0;
+}
+.dlTitle1 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #d62416;
+  margin-top: 40px;
+}
+.dlTitle2 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #d62416;
+}
+.tel {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #d62416;
+}
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialMediaIconImage {
+  filter: invert(14%) sepia(26%) saturate(2275%) hue-rotate(338deg)
+    brightness(99%) contrast(95%);
+  cursor: pointer;
+}
+.socialMediaIcon {
+  margin: 0px 20px;
+}

@@ -1,0 +1,150 @@
+.container {
+  margin: 30px 10px;
+}
+.card {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+.cardBody {
+  border: 2px solid #ebebeb;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  height: 200px;
+  padding: 10px 20px;
+}
+.cardBody:hover {
+  border: 2px solid #522118;
+}
+.image {
+  margin-top: -80px;
+  margin-right: -120px;
+}
+.content {
+  margin-top: -80px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #522118;
+}
+
+.price {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #522118;
+}
+.superscript {
+  font-size: 20px;
+  margin-left: -10px;
+}
+
+.desc {
+  color: #777;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+/*CART*/
+.cartButtonWrapper {
+  cursor: pointer;
+  background-color: #4b1d10;
+  border-radius: 26px;
+  border: none;
+  width: 200px;
+  height: 38px;
+}
+
+.cartIconWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.iconCartImage {
+  filter: brightness(0) saturate(100%) invert(91%) sepia(7%) saturate(900%)
+    hue-rotate(329deg) brightness(108%) contrast(92%);
+}
+.cartText {
+  font-size: 20px;
+  font-family: cooper-black-std, serif;
+  color: #f5ebdc;
+}
+/*CUSTOMIZE*/
+.customizeIcon {
+  padding: 0px 20px 0px 0px;
+}
+.customizeButtonWrapper {
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 26px;
+  border: none;
+  outline: none;
+  background: #e8dcc9;
+}
+.customizeButtonWrapper .customizeIconWrapper {
+  cursor: pointer;
+  width: 30px;
+  height: 38px;
+  overflow: hidden;
+  border-radius: 26px;
+  background: #e8dcc9;
+  transition: all 0.1s ease-out;
+}
+.customizeIconWrapper {
+  padding-top: 5px;
+}
+
+.customizeButtonWrapper .customizeIconWrapper:hover {
+  width: 200px;
+}
+.customizeButtonWrapper:hover + .cartButtonWrapper {
+  width: 38px;
+}
+.customizeButtonWrapper:hover + .cartButtonWrapper .cartIconWrapper .cartText {
+  display: none;
+}
+.customizeButtonWrapper .customizeIconWrapper .customizeIcon {
+  display: inline-block;
+  width: 52px;
+  background: #e8dcc9;
+  height: 52px;
+  border-radius: 26px;
+  box-sizing: border-box;
+  margin: 0 10px 0 0;
+}
+.iconCustomizeImage {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(43%) saturate(1796%)
+    hue-rotate(336deg) brightness(99%) contrast(93%);
+}
+.customizeText {
+  font-family: cooper-black-std, serif;
+  font-size: 20px;
+  font-weight: bolder;
+  vertical-align: super;
+  text-align: end;
+  color: #522118;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .price,
+  .desc {
+    font-size: 24px;
+  }
+}
