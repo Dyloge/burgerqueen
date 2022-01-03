@@ -7,6 +7,7 @@
 }
 .firstNavbarContainer {
   height: 69px;
+  width: 100%;
   background-color: #e8dcc9;
   padding: 0px 20px;
   display: flex;
@@ -93,12 +94,41 @@
   color: #ff8732;
 }
 
-@media screen and (max-width: 480px) {
-  .item:nth-child(2) {
+/* section MEDIA QUERIES */
+/* subsection Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .secondNavbarContainer {
     display: none;
   }
+  .loginButton {
+    display: none;
+  }
+}
 
-  .item:nth-child(1) {
-    flex: 3;
+/* subsection Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .test {
+    background-color: red;
+  }
+}
+
+/* subsection Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .test {
+    background-color: red;
+  }
+}
+
+/* subsection Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .test {
+    background-color: red;
+  }
+}
+
+/* subsection Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .test {
+    background-color: red;
   }
 }

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" class="injected-svg" data-src="/assets/icons/header-hamburger-close.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g transform="translate(-22 -21)">
+		<circle cx="19" cy="19" r="19" transform="translate(22 21)" fill="#ff8233"></circle>
+		<rect width="19" height="2" rx="1" transform="translate(35.49 32.575) rotate(45)" fill="#f5ebdc"></rect>
+		<rect width="19" height="2" rx="1" transform="translate(34.075 46.01) rotate(-45)" fill="#f5ebdc"></rect>
+	</g>
+</svg>

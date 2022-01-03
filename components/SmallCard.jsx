@@ -24,7 +24,7 @@ const SmallCard = ({ onClick, modalIsOpen, setModalIsOpen }) => {
             <span className={styles.price}>
               39 <sup className={styles.superscript}>99</sup>
             </span>
-            <h1 className={styles.title}>Double Queen&apos;s Chimichurry</h1>
+            <h1 className={styles.title}>Queen&apos;s Chimichurry</h1>
 
             {/*Buttons*/}
 

@@ -27,7 +27,7 @@ const Footer = () => {
       <div className={styles.item}>Regulamin</div>
       <div className={styles.item}>Polityka prywatności</div>
       <div className={styles.dlTitle1}>
-        Zamawiaj szybko i wygodnie z darmową aplikacją Burger King Polska
+        Zamawiaj szybko i wygodnie z darmową aplikacją
       </div>
       <div className={styles.dlTitle2}>Burger King Polska</div>
       <DownloadAppButtons />

@@ -1,5 +1,9 @@
 .container {
   margin: 30px 10px;
+  background-color: #f5ebdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .card {
   width: 300px;
@@ -8,7 +12,8 @@
   margin-right: 20px;
 }
 .cardBody {
-  border: 2px solid #ebebeb;
+  background-color: #f5ebdc;
+  border: 2px solid #f3d1d1;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
@@ -131,20 +136,4 @@
   vertical-align: super;
   text-align: end;
   color: #522118;
-}
-
-@media screen and (max-width: 480px) {
-  .container {
-    width: 100%;
-  }
-
-  .title {
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .price,
-  .desc {
-    font-size: 24px;
-  }
 }

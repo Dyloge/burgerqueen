@@ -30,13 +30,38 @@
   font-weight: bolder;
 }
 
-@media screen and (max-width: 480px) {
-  .title {
-    text-align: center;
+/* section MEDIA QUERIES */
+/* subsection Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    display: none;
   }
+}
 
-  .desc {
-    width: 90%;
-    text-align: center;
+/* subsection Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .test {
+    background-color: red;
+  }
+}
+
+/* subsection Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .test {
+    background-color: red;
+  }
+}
+
+/* subsection Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .test {
+    background-color: red;
+  }
+}
+
+/* subsection Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .test {
+    background-color: red;
   }
 }

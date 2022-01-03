@@ -19,13 +19,14 @@
   margin: 10px 0;
 }
 .dlTitle1 {
-  font-size: 20px;
+  text-align: center;
+  font-size: 24px;
   font-weight: bolder;
   color: #d62416;
   margin-top: 40px;
 }
 .dlTitle2 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bolder;
   color: #d62416;
 }
@@ -44,4 +45,42 @@
 .socialMediaIcon {
   cursor: pointer;
   margin: 0px 20px;
+}
+/* section MEDIA QUERIES */
+/* subsection Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .dlTitle1 {
+    font-size: 4vw;
+  }
+  .dlTitle2 {
+    font-size: 4vw;
+  }
+}
+
+/* subsection Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .test {
+    background-color: red;
+  }
+}
+
+/* subsection Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .test {
+    background-color: red;
+  }
+}
+
+/* subsection Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .test {
+    background-color: red;
+  }
+}
+
+/* subsection Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .test {
+    background-color: red;
+  }
 }

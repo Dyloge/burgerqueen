@@ -5,7 +5,7 @@ const Banner2 = () => {
     <div className={styles.wrapper}>
       <div className={styles.background}>
         <div className={styles.lettuce}>
-          <Image src='/img/lettuce.png' width='420' height='420' alt='' />
+          <Image src='/img/lettuce.png' width='320' height='320' alt='' />
         </div>
         <div className={styles.cucamber}>
           <Image src='/img/cucamber.png' width='420' height='420' alt='' />
@@ -17,7 +17,7 @@ const Banner2 = () => {
           <Image src='/img/tomatoes.png' width='290' height='290' alt='' />
         </div>
         <div className={styles.onion2}>
-          <Image src='/img/onion.png' width='450' height='450' alt='' />
+          <Image src='/img/onion.png' width='200vw' height='200vw' alt='' />
         </div>
         <div className={styles.tomatoes2}>
           <Image src='/img/tomatoes2.png' width='320' height='250' alt='' />

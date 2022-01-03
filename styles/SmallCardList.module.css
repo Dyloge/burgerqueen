@@ -1,5 +1,7 @@
 .container {
   padding: 20px 10px;
+  background-color: #f5ebdc;
+  margin-top: 0;
 }
 
 .wrapper {
@@ -37,5 +39,42 @@
   .desc {
     width: 90%;
     text-align: center;
+  }
+}
+/* section MEDIA QUERIES */
+/* subsection Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* subsection Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .h1 {
+    background-color: red;
+  }
+}
+
+/* subsection Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .h1 {
+    background-color: red;
+  }
+}
+
+/* subsection Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .h1 {
+    background-color: red;
+  }
+}
+
+/* subsection Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .h1 {
+    background-color: red;
   }
 }

@@ -7,6 +7,7 @@ import BigCardList from '../components/BigCardList';
 import Banner1 from '../components/Banner1';
 import Banner2 from '../components/Banner2';
 import OpenModal from '../components/OpenModal';
+import HMenu from '../components/HMenu';
 
 export default function Home() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -45,6 +46,7 @@ export default function Home() {
         onClick={openModal}
       />
       <Banner1 />
+      <HMenu />
       <Banner2 />
     </div>
   );

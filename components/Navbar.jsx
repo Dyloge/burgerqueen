@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import styles from '../styles/Navbar.module.css';
+import { slide as Menu } from 'react-burger-menu';
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -17,6 +19,8 @@ const Navbar = () => {
             />
           </button>
         </div>
+        {/* Hamberger Menu */}
+
         <div className={styles.item}>
           <div className={styles.logo}>
             <Image src='/img/svglogo.svg' alt='' width='73' height='80' />

@@ -1,6 +1,6 @@
 import Slider from '@madzadev/image-slider';
 import '@madzadev/image-slider/dist/index.css';
-import Image from 'next/image';
+import styles from '../styles/Featured.module.css';
 
 const Featured = () => {
   const images = [
@@ -13,14 +13,16 @@ const Featured = () => {
   ];
 
   return (
-    <Slider
-      showArrowControls={false}
-      showDotControls={false}
-      autoPlayInterval={5000}
-      imageList={images}
-      width={1100}
-      height={300}
-    />
+    <div className={styles.slider}>
+      <Slider
+        showArrowControls={false}
+        showDotControls={false}
+        autoPlayInterval={5000}
+        imageList={images}
+        width={1100}
+        height={300}
+      />
+    </div>
   );
 };
 

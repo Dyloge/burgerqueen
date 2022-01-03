@@ -70,7 +70,7 @@
   height: 44px;
   border: none;
   border-radius: 40px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bolder;
   cursor: pointer;
   font-family: inherit;
@@ -83,4 +83,66 @@
   font-size: 24px;
   font-weight: bolder;
   margin-bottom: 25px;
+}
+/* section MEDIA QUERIES */
+/* subsection Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .lettuce {
+    right: 100px;
+    top: 190px;
+  }
+  .cucamber {
+    left: -10px;
+    top: -280px;
+  }
+  .onion {
+    right: -390px;
+    top: -120px;
+  }
+  .tomatoes {
+    right: -180px;
+    top: 120px;
+  }
+  .tomatoes2 {
+    left: -250px;
+    top: 120px;
+  }
+  .onion2 {
+    left: -130px;
+    top: -30px;
+  }
+  .button {
+    font-size: 3vw;
+  }
+  .title {
+    font-size: 3vw;
+  }
+}
+
+/* subsection Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .h1 {
+    background-color: red;
+  }
+}
+
+/* subsection Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .h1 {
+    background-color: red;
+  }
+}
+
+/* subsection Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .h1 {
+    background-color: red;
+  }
+}
+
+/* subsection Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .h1 {
+    background-color: red;
+  }
 }

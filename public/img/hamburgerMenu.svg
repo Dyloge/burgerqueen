@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" class="injected-svg" data-src="/assets/icons/header-hamburger.svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g transform="translate(-22 -21)">
+		<circle fill="#ff8233" cx="19" cy="19" r="19" transform="translate(22 21)"></circle>
+		<rect fill="#f5ebdc" width="19" height="2" rx="1" transform="translate(32 34)"></rect>
+		<rect fill="#f5ebdc" width="19" height="2" rx="1" transform="translate(32 39)"></rect>
+		<rect fill="#f5ebdc" width="19" height="2" rx="1" transform="translate(32 44)"></rect>
+	</g>
+</svg>
